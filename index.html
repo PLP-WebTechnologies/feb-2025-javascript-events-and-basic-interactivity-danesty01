@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Events Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> JavaScript Event Handling & Interactive Elements</h1>
+  
+  <!-- Button for event handling -->
+  <button id="changeTextButton">Click Me!</button>
+  <p id="textDisplay">This text will change when you click the button.</p>
+
+  <!-- Image gallery -->
+  <div class="gallery">
+    <img src="https://images.pexels.com/photos/31864703/pexels-photo-31864703.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image 1" class="gallery-image">
+    <img src="https://images.pexels.com/photos/31949676/pexels-photo-31949676/free-photo-of-charming-garden-with-benches-and-flowering-tree.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image 2" class="gallery-image">
+    <img src="https://images.pexels.com/photos/11246275/pexels-photo-11246275.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Image 3" class="gallery-image">
+  </div>
+
+  <!-- Form for validation -->
+  <form id="userForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <span id="emailFeedback"></span>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" minlength="8" required>
+    <span id="passwordFeedback"></span>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
